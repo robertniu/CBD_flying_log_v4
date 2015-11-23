@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/NavPage">
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	 	android:textSize="20dp"
+        android:text="@string/enter"/>
+    <LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/tvlatitude"  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip"
+			android:textColor="@color/red"    />
+    <TextView android:id="@+id/tvlongitude" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+    </LinearLayout>
+    
+        <LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:id="@+id/tvhigh" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+		<TextView android:id="@+id/tvdirection" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+		</LinearLayout>
+		
+            <LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:id="@+id/tvspeed" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+		<TextView android:id="@+id/tvpace" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+		
+			</LinearLayout>
+		
+          	
+        <LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:id="@+id/tvdistance" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+        </LinearLayout> 
+        
+          
+                   
+        <LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">   
+		<TextView android:id="@+id/tvgpstime" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20dip" android:textColor="@color/red"  />
+		
+		 
+		<TextView 
+		    android:id="@+id/tvinfotype" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="20dip" />
+		
+		</LinearLayout> 
+		
+		<Button android:id="@+id/btnmanual" android:text="@string/btnmanual"
+			style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"/>
+		<!--  
+				<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:id="@+id/btnsettimespace" android:text="@string/btnsettimespace"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
+			<EditText android:id="@+id/ettimespace"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:maxLength="5" android:numeric="integer"
+				android:hint="@string/ettimespacehint" />
+		</LinearLayout>
+		-->
+
+	    <Button 
+	    android:id="@+id/btnexit" 
+	    android:text="@string/btnexit"
+		style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"/>
+
+	    <Button
+        android:id="@+id/letsgo_btn"
+        style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"
+        android:text="@string/letsgo"/>
+		        
+
+		<Button
+        android:id="@+id/reg_btn"
+        style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"
+        android:text="@string/reg"/>
+    
+    <Button
+        android:id="@+id/sendtxt_t_btn"
+        style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"
+        android:text="@string/sendtxt_t"/>
+    <Button
+        android:id="@+id/goto_send_btn"
+        style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"
+        android:text="@string/goto_send"/>
+    <!--  
+    <Button
+        android:id="@+id/launch_wx_btn"
+        style="@style/MMLineActionButton"
+	    android:layout_margin="10dp"
+        android:text="@string/launch_wx"/>
+    
+    <Button
+        android:id="@+id/check_timeline_supported_btn"
+        style="@style/MMLineActionButton"
+        android:layout_margin="10dp"
+        android:text="@string/check_timeline_supported"/>
+     -->
+    
+   
+</LinearLayout>
